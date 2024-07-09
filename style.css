@@ -177,3 +177,73 @@ nav h1{
 .video iframe{
     border-radius: 20px;
 }
+
+/* this is Target section start here now */
+/* this is Target section start here now */
+
+.target h2{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.target p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #808080;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.alltarget-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.target-box{
+    background-color: #fff6f4;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.target-box:nth-child(2){
+    background-color: #F2F6FE;
+    border-radius: 10px;
+}
+
+.target-box:nth-child(3){
+    background-color: #FFFDF2;
+    border-radius: 10px;
+}
+
+.target-box{
+    background-color: #fff6f4;
+    text-align: left;
+    padding: 20px;
+}
+
+.target-box h3{
+    font-size: 22px;
+    padding: 10px;
+}
+ 
+
+.target-box p{
+    text-align: left;
+    margin: 0;
+    padding: 15px 0px;
+    width: 100%;
+}
+ 
+.target-box a{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
