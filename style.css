@@ -247,3 +247,48 @@ nav h1{
     font-weight: bold;
     font-size: 18px;
 }
+
+
+/* this is Tools section start here now */
+/* this is Tools section start here now */
+
+.tools h1{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.tools p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #808080;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.tool-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 30px;
+    box-shadow: 0px 0px 4px #e6d8d8;
+    margin-bottom: 20px;
+}
+
+.tool-desc p{
+   text-align: left;
+   margin: 0;
+   padding: 15px 0px;
+   width: 100%;
+}
+
+.tool-desc a{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
