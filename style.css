@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav h1{
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    cursor: pointer;
+    background: white;
+    font-size: 18px;
+}
