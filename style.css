@@ -365,3 +365,25 @@ nav h1{
     font-weight: bold;
     cursor: pointer;
 }
+
+/* this is Footer section start here now */
+/* this is Footer section start here now */
+
+footer{
+    background: #f8f8f8;
+    padding: 30px 0px;
+    margin-top: 30px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
