@@ -252,6 +252,10 @@ nav h1{
 /* this is Tools section start here now */
 /* this is Tools section start here now */
 
+.tools{
+    padding: 50px 0px;
+}
+
 .tools h1{
     font-size: 36px;
     font-weight: bold;
@@ -267,6 +271,10 @@ nav h1{
     margin: 0 auto;
     text-align: center;
     padding-bottom: 40px;
+}
+
+.fullTool-box{
+    padding: 30px 0px;
 }
 
 .tool-box{
@@ -291,4 +299,69 @@ nav h1{
     color: black;
     font-weight: bold;
     font-size: 18px;
+}
+
+
+/* this is Contact section start here now */
+/* this is Contact section start here now */
+
+
+.contact{
+    background-image: linear-gradient(45deg, #63616170, #3d3d3db7), url('images/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 30px 0px;
+}
+
+.contact-desc h2{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.contact-desc p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #f7ecec;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.submit-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.submit-box span{
+    width: 40%;
+}
+.submit-box span:last-child{
+    width: 8%;
+}
+
+.submit-box input{
+    padding: 15px 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+}
+
+.submit-box .submit-btn {
+    padding: 15px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
 }
