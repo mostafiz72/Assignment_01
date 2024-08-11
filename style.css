@@ -387,3 +387,11 @@ footer{
     align-items: center;
     gap: 20px;
 }
+
+.footer-desc h3 span{
+    color: tomato;
+    cursor: pointer;
+}
+.footer-desc h3 span:hover{
+    text-decoration: underline;
+}
